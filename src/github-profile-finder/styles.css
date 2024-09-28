@@ -1,0 +1,76 @@
+html{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,152,155,1) 0.1%, rgba(0,94,120,1) 94.2% );
+    height: 100%;
+}
+.github-profile-container {
+  margin: 0 auto;
+  width: 60%;
+  max-width: 1000px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+input{
+    border-radius: 8px;
+}
+
+.input-wrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-wrapper input {
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+}
+
+.input-wrapper button {
+  padding: 5px 12px;
+  border: none;
+  border-radius: 8px;
+  color: black;
+  cursor: pointer;
+}
+
+.user{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+}
+
+.avatar{
+    height: 150px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    margin: 10px;
+}
+.name-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.name-container p{
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.profile-info div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+.href{
+    font-size: 20px;
+    color: rgb(33, 242, 249);
+}
